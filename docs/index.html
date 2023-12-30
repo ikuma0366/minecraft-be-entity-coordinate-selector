@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <heder>
+      <h1>簡単に座標セレクター指定できるツール</h1>
+    </heder>
+    <main>
+      <p class="other">下に座標を入れてください</p>
+      <div>
+        <input id="position_A" placeholder="0 0 0">
+        <input id="position_B" placeholder="0 0 0">
+        <input type="submit" value="変換する" onclick="send()"/>
+      </div>
+      <div>
+        <input id="selector_position" rows="1" cols="20" class=sze>
+		    <button onclick="cp()">コピー</button>
+      </div>
+      <div>
+        <span id="result"></span>
+      </div>
+    </main>
+    <script src="js/assets/main.js"></script>
+  </body>
+</html>
